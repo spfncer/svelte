@@ -423,6 +423,7 @@ export namespace AST {
 		/** The rejection reason inside the `catch` block */
 		error: Pattern | null;
 		pending: Fragment | null;
+		minTime: Expression | null;
 		then: Fragment | null;
 		catch: Fragment | null;
 	}

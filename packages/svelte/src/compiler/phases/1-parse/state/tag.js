@@ -197,6 +197,13 @@ function open(parser) {
 		parser.require_whitespace();
 		const expression = read_expression(parser);
 		parser.allow_whitespace();
+		
+		let minTime = null;
+		if(parser.eat('least')) {
+			parser.require_whitespace();
+			minTime = read_expression(parser);
+			parser.allow_whitespace();
+		}
 
 		/** @type {ReturnType<typeof parser.append<AST.AwaitBlock>>} */
 		const block = parser.append({
@@ -207,6 +214,7 @@ function open(parser) {
 			value: null,
 			error: null,
 			pending: null,
+			minTime,
 			then: null,
 			catch: null
 		});

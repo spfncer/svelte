@@ -2,12 +2,12 @@
 	"html": {
 		"type": "Fragment",
 		"start": 0,
-		"end": 148,
+		"end": 159,
 		"children": [
 			{
 				"type": "AwaitBlock",
 				"start": 0,
-				"end": 148,
+				"end": 159,
 				"expression": {
 					"type": "Identifier",
 					"start": 8,
@@ -27,63 +27,73 @@
 				"value": {
 					"type": "Identifier",
 					"name": "theValue",
-					"start": 46,
+					"start": 57,
 					"loc": {
 						"start": {
 							"line": 3,
 							"column": 7,
-							"character": 46
+							"character": 57
 						},
 						"end": {
 							"line": 3,
 							"column": 15,
-							"character": 54
+							"character": 65
 						}
 					},
-					"end": 54
+					"end": 65
 				},
 				"error": {
 					"type": "Identifier",
 					"name": "theError",
-					"start": 96,
+					"start": 107,
 					"loc": {
 						"start": {
 							"line": 5,
 							"column": 8,
-							"character": 96
+							"character": 107
 						},
 						"end": {
 							"line": 5,
 							"column": 16,
-							"character": 104
+							"character": 115
 						}
 					},
-					"end": 104
+					"end": 115
 				},
-				"minTime": null,
+				"minTime": {
+					"type": "Literal",
+					"start": 25,
+					"end": 29,
+					"loc": {
+					  "start": { "line": 1, "column": 25 },
+					  "end": { "line": 1, "column": 29 }
+					},
+					"value": "1s",
+					"raw": "\"1s\""
+				  },
 				"pending": {
 					"type": "PendingBlock",
-					"start": 19,
-					"end": 39,
+					"start": 30,
+					"end": 50,
 					"children": [
 						{
 							"type": "Text",
-							"start": 19,
-							"end": 21,
+							"start": 30,
+							"end": 32,
 							"raw": "\n\t",
 							"data": "\n\t"
 						},
 						{
 							"type": "Element",
-							"start": 21,
-							"end": 38,
+							"start": 32,
+							"end": 49,
 							"name": "p",
 							"attributes": [],
 							"children": [
 								{
 									"type": "Text",
-									"start": 24,
-									"end": 34,
+									"start": 35,
+									"end": 45,
 									"raw": "loading...",
 									"data": "loading..."
 								}
@@ -91,8 +101,8 @@
 						},
 						{
 							"type": "Text",
-							"start": 38,
-							"end": 39,
+							"start": 49,
+							"end": 50,
 							"raw": "\n",
 							"data": "\n"
 						}
@@ -101,38 +111,38 @@
 				},
 				"then": {
 					"type": "ThenBlock",
-					"start": 39,
-					"end": 88,
+					"start": 50,
+					"end": 99,
 					"children": [
 						{
 							"type": "Text",
-							"start": 55,
-							"end": 57,
+							"start": 66,
+							"end": 68,
 							"raw": "\n\t",
 							"data": "\n\t"
 						},
 						{
 							"type": "Element",
-							"start": 57,
-							"end": 87,
+							"start": 68,
+							"end": 98,
 							"name": "p",
 							"attributes": [],
 							"children": [
 								{
 									"type": "Text",
-									"start": 60,
-									"end": 73,
+									"start": 71,
+									"end": 84,
 									"raw": "the value is ",
 									"data": "the value is "
 								},
 								{
 									"type": "MustacheTag",
-									"start": 73,
-									"end": 83,
+									"start": 84,
+									"end": 94,
 									"expression": {
 										"type": "Identifier",
-										"start": 74,
-										"end": 82,
+										"start": 85,
+										"end": 93,
 										"loc": {
 											"start": {
 												"line": 4,
@@ -150,8 +160,8 @@
 						},
 						{
 							"type": "Text",
-							"start": 87,
-							"end": 88,
+							"start": 98,
+							"end": 99,
 							"raw": "\n",
 							"data": "\n"
 						}
@@ -160,38 +170,38 @@
 				},
 				"catch": {
 					"type": "CatchBlock",
-					"start": 88,
-					"end": 140,
+					"start": 99,
+					"end": 151,
 					"children": [
 						{
 							"type": "Text",
-							"start": 105,
-							"end": 107,
+							"start": 116,
+							"end": 118,
 							"raw": "\n\t",
 							"data": "\n\t"
 						},
 						{
 							"type": "Element",
-							"start": 107,
-							"end": 139,
+							"start": 118,
+							"end": 150,
 							"name": "p",
 							"attributes": [],
 							"children": [
 								{
 									"type": "Text",
-									"start": 110,
-									"end": 117,
+									"start": 121,
+									"end": 128,
 									"raw": "oh no! ",
 									"data": "oh no! "
 								},
 								{
 									"type": "MustacheTag",
-									"start": 117,
-									"end": 135,
+									"start": 128,
+									"end": 146,
 									"expression": {
 										"type": "MemberExpression",
-										"start": 118,
-										"end": 134,
+										"start": 129,
+										"end": 145,
 										"loc": {
 											"start": {
 												"line": 6,
@@ -204,8 +214,8 @@
 										},
 										"object": {
 											"type": "Identifier",
-											"start": 118,
-											"end": 126,
+											"start": 129,
+											"end": 137,
 											"loc": {
 												"start": {
 													"line": 6,
@@ -220,8 +230,8 @@
 										},
 										"property": {
 											"type": "Identifier",
-											"start": 127,
-											"end": 134,
+											"start": 138,
+											"end": 145,
 											"loc": {
 												"start": {
 													"line": 6,
@@ -242,8 +252,8 @@
 						},
 						{
 							"type": "Text",
-							"start": 139,
-							"end": 140,
+							"start": 150,
+							"end": 151,
 							"raw": "\n",
 							"data": "\n"
 						}

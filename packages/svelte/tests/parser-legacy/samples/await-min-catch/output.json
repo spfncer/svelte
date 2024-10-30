@@ -1,0 +1,166 @@
+{
+	"html": {
+	  "type": "Fragment",
+	  "start": 0,
+	  "end": 113,
+	  "children": [
+		{
+		  "type": "AwaitBlock",
+		  "start": 0,
+		  "end": 113,
+		  "expression": {
+			"type": "Identifier",
+			"start": 8,
+			"end": 18,
+			"loc": {
+			  "start": { "line": 1, "column": 8 },
+			  "end": { "line": 1, "column": 18 }
+			},
+			"name": "thePromise"
+		  },
+		  "value": null,
+		  "error": {
+			"type": "Identifier",
+			"name": "theError",
+			"start": 61,
+			"loc": {
+			  "start": { "line": 3, "column": 8, "character": 61 },
+			  "end": { "line": 3, "column": 16, "character": 69 }
+			},
+			"end": 69
+		  },
+		  "pending": {
+			"type": "PendingBlock",
+			"start": 33,
+			"end": 53,
+			"children": [
+			  {
+				"type": "Text",
+				"start": 33,
+				"end": 35,
+				"raw": "\n\t",
+				"data": "\n\t"
+			  },
+			  {
+				"type": "Element",
+				"start": 35,
+				"end": 52,
+				"name": "p",
+				"attributes": [],
+				"children": [
+				  {
+					"type": "Text",
+					"start": 38,
+					"end": 48,
+					"raw": "loading...",
+					"data": "loading..."
+				  }
+				]
+			  },
+			  {
+				"type": "Text",
+				"start": 52,
+				"end": 53,
+				"raw": "\n",
+				"data": "\n"
+			  }
+			],
+			"skip": false
+		  },
+		  "minTime": {
+			"type": "Literal",
+			"start": 25,
+			"end": 32,
+			"loc": {
+			  "start": { "line": 1, "column": 25 },
+			  "end": { "line": 1, "column": 32 }
+			},
+			"value": "250ms",
+			"raw": "\"250ms\""
+		  },
+		  "then": {
+			"type": "ThenBlock",
+			"start": null,
+			"end": null,
+			"children": [],
+			"skip": true
+		  },
+		  "catch": {
+			"type": "CatchBlock",
+			"start": 53,
+			"end": 105,
+			"children": [
+			  {
+				"type": "Text",
+				"start": 70,
+				"end": 72,
+				"raw": "\n\t",
+				"data": "\n\t"
+			  },
+			  {
+				"type": "Element",
+				"start": 72,
+				"end": 104,
+				"name": "p",
+				"attributes": [],
+				"children": [
+				  {
+					"type": "Text",
+					"start": 75,
+					"end": 82,
+					"raw": "oh no! ",
+					"data": "oh no! "
+				  },
+				  {
+					"type": "MustacheTag",
+					"start": 82,
+					"end": 100,
+					"expression": {
+					  "type": "MemberExpression",
+					  "start": 83,
+					  "end": 99,
+					  "loc": {
+						"start": { "line": 4, "column": 12 },
+						"end": { "line": 4, "column": 28 }
+					  },
+					  "object": {
+						"type": "Identifier",
+						"start": 83,
+						"end": 91,
+						"loc": {
+						  "start": { "line": 4, "column": 12 },
+						  "end": { "line": 4, "column": 20 }
+						},
+						"name": "theError"
+					  },
+					  "property": {
+						"type": "Identifier",
+						"start": 92,
+						"end": 99,
+						"loc": {
+						  "start": { "line": 4, "column": 21 },
+						  "end": { "line": 4, "column": 28 }
+						},
+						"name": "message"
+					  },
+					  "computed": false,
+					  "optional": false
+					}
+				  }
+				]
+			  },
+			  {
+				"type": "Text",
+				"start": 104,
+				"end": 105,
+				"raw": "\n",
+				"data": "\n"
+			  }
+			],
+			"skip": false
+		  }
+		}
+	  ]
+	}
+  }
+  

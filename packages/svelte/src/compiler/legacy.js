@@ -188,6 +188,7 @@ export function convert(source, ast) {
 					value: node.value,
 					error: node.error,
 					pending: pendingblock,
+					minTime: node.minTime,
 					then: thenblock,
 					catch: catchblock
 				};

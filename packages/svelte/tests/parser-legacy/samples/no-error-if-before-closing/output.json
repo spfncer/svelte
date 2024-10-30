@@ -134,6 +134,7 @@
 					"end": 98
 				},
 				"error": null,
+				"minTime": null,
 				"pending": {
 					"type": "PendingBlock",
 					"start": 80,
@@ -234,6 +235,7 @@
 					"end": 138
 				},
 				"error": null,
+				"minTime": null,
 				"pending": {
 					"type": "PendingBlock",
 					"start": 123,

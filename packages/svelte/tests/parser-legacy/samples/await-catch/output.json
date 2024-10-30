@@ -43,6 +43,7 @@
 					},
 					"end": 55
 				},
+				"minTime": null,
 				"pending": {
 					"type": "PendingBlock",
 					"start": 19,
